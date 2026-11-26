@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DataNusa — Statistik Indonesia</title>
+<meta name="description" content="DataNusa: angka-angka utama Indonesia — penduduk, ekonomi, tenaga kerja, kemiskinan, dan daerah — dari data BPS yang diolah, dalam satu situs yang berjalan luring.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">DN</span>
+      <span class="brand-text"><strong>DataNusa</strong><small>Statistik Indonesia</small></span>
+    </a>
+    <button id="navToggle" class="nav-toggle" type="button" aria-expanded="false" aria-controls="mainNav">Menu</button>
+    <nav id="mainNav" class="mainnav" aria-label="Navigasi utama">
+      <a href="#/" data-route="">Beranda</a>
+      <a href="#/penduduk" data-route="penduduk">Penduduk</a>
+      <a href="#/ekonomi" data-route="ekonomi">Ekonomi</a>
+      <a href="#/tenaga-kerja" data-route="tenaga-kerja">Tenaga Kerja</a>
+      <a href="#/kemiskinan" data-route="kemiskinan">Kemiskinan</a>
+      <a href="#/daerah" data-route="daerah">Daerah</a>
+      <a href="#/penjelajah" data-route="penjelajah">Penjelajah Data</a>
+      <a href="#/tentang" data-route="tentang">Tentang</a>
+    </nav>
+  </div>
+</header>
+
+<main id="view" class="wrap" aria-live="polite"></main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p><strong>DataNusa</strong> — situs statistik independen tentang Indonesia. Bukan afiliasi BPS.</p>
+    <p class="src">Sumber: BPS — Badan Pusat Statistik (diolah, 2026). Angka-angka di situs ini memakai publikasi BPS; pangsa sektor PDB 2024 adalah perkiraan dari pangsa yang dipublikasikan. Seluruh data tersimpan di dalam situs ini — situs berjalan tanpa jaringan.</p>
+    <p class="src">Dibuat 2026 · DataNusa · <a href="#/tentang">Metodologi &amp; sumber</a></p>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="charts.js"></script>
+<script src="views.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
